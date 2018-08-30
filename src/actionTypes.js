@@ -1,0 +1,9 @@
+export const INITIATE_LOGIN = "socket/initiateLogin";
+export const LOGIN_SUCCESS = "socket/loginSuccess";
+export const INITIATE_DB = "socket/intiateDB";
+export const DB_INITIALIZED = "socket/DBInitialized";
+export const FETCH_ACCOUNTS = "socket/fetchAccounts";
+export const ACCOUNTS_LIST = "accounts/list";
+export const ACCOUNT_PICKED = "accounts/accountPicked";
+export const FETCH_HISTORY = "socket/fetchHistory";
+export const HISTORY_LIST = "accounts/history";

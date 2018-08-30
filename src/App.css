@@ -1,0 +1,22 @@
+@import '~antd/dist/antd.css';
+
+.page {
+  height: 100vh;
+}
+
+.account-list {
+  color: white;
+  height: 100vh;
+  overflow: auto;
+}
+
+.list-item > .ant-list-item-content{
+  flex-direction: column;
+  padding-left: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.list-item > .ant-list-item-content > span:first-child {
+  font-size: 20px;
+}
